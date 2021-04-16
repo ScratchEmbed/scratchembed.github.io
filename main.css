@@ -1,0 +1,50 @@
+.blocker {
+	background-color: black;
+	opacity: 80%;
+	height: 100%;
+	width: 100%;
+	z-index: 399;
+	position: fixed;
+}
+
+.disclaimer {
+	position: fixed;
+	padding: 20px 30px 20px 30px;
+	background-color: white;
+	border-radius: 10px;
+	border: 5px solid grey;
+	width: 40%;
+	font-size: 30px;
+	right: 30%;
+	bottom: 30%;
+	z-index: 400;
+}
+
+#closebutton {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+#desc {
+	font-size: 25px;
+}
+
+.ToolBox {
+	padding: 25px;
+	font-size: 30px;
+	background-color: var(--mainforeground);
+	border-radius: 40px;
+	width: 80%;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.ToolBox:hover {
+	width: 100%;
+	border-radius: 0px;
+	margin: 20px 0 0 0;
+}

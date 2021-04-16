@@ -1,0 +1,70 @@
+html {
+	--mainbackground: #00bfff; /*Currently the darker blue colour used in titles for the main site*/
+	--mainforeground: #8ae2ff; /*Currently the lighter blue used in the headers for the main site*/
+}
+
+body {
+	font-family: sans-serif;
+	background-color: var(--mainbackground);
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+#return {
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	margin: 0px;
+}
+
+.header {
+	text-align: center;
+	background-color: var(--mainforeground);
+	padding: 50px 0 50px 0;
+	width: 100%;
+}
+
+#title {
+	width: 75%;
+	margin-top: 0px;
+	font-size: 120px;
+	background-color: var(--mainbackground);
+	border-radius: 60px;
+	padding: 20px;
+	margin: 0 auto 0 auto;
+}
+
+.inlinelink {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.inlinelink:hover {
+	color: blue;
+}
+
+.PageBox {
+	background-color: var(--mainforeground);
+	padding: 20px;
+	border-radius: 30px;
+	width: 50%;
+	margin: 30px auto 30px auto;
+}
+
+.footer {
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	background-color: var(--mainforeground);
+	display: flex;
+	flex-direction: column;
+}
+
+.footerlinks {
+	text-align: left;
+	display: flex;
+	justify-content: space-evenly;
+}

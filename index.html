@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scratch Embed</title>
+		<meta name="description" content="A collection of tools to embed various parts of the Scratch website onto your site.">
+		<meta name="keywords" content="Scratch, Embed, HTML, CSS, Accio">
+		<meta name="author" content="-Accio-">
+		<link rel="stylesheet" type="text/css" href="all.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="shortcut icon" type="img/png" href="favicon.png">
+	</head>
+	<body style="margin:0">
+		<div class="blocker" id="blocker"></div>
+		<div class="disclaimer" id="disclaimer">
+			<button onclick="close1()" id="closebutton">X</button>
+			<h3>Disclaimer:</h3>
+			<p>This site is still under heavy construction. Certain things might not work as intended. Make sure to check back frequently to see the finished site.</p>
+		</div>
+		<div class="header">
+			<h1 id="title">&ltScratch Embed&gt</h1>
+			<h3 id="authors">By: <a href="https://github.com/Accio1" class="inlinelink">-Accio-</a></h3>
+			<h2 id="desc">A collection of tools to embed various parts of the <a href="https://scratch.mit.edu" class="inlinelink">Scratch</a> website onto your site.</h2>
+		</div>
+		<a href="SSE" class="ToolBox" id="SSE"><h1>Scratch Studio Embed</h1></a>
+		<a href="SPE" class="ToolBox" id="SPE"><h1>Scratch Project Embed</h1></a>
+		<a href="pages/upcoming" class="ToolBox" id="SUE"><h1>Coming Soon: Scratch User Embed</h1></a>
+		<a href="pages/upcoming" class="ToolBox" id="SNE"><h1>Coming Soon: Scratch News Embed</h1></a>
+		<a href="pages/upcoming" class="ToolBox" id="SS"><h1>Coming Soon: Scratch Status</h1></a>
+		<!--onmouseover='replace1("SSE", "<h1>Embed Scratch studios on your website</h1>")' onmouseleave='replace1("SSE", "<h1>Scratch Studio Embed</h1>")'-->
+		<br>
+		<br>
+		<div class="footer">
+			<div class="footerlinks">
+				<div class="legal">
+					<h2>Legal</h2>
+					<h3><a href="pages/guidelines" class="inlinelink">Guidelines of Use</a></h3>
+					<h3><a href="pages/disclaimer" class="inlinelink">Disclaimer</a></h3>
+					<h3><a href="pages/licence" class="inlinelink">Licence</a></h3>
+				</div>
+				<div class="development">
+					<h2>Development</h2>
+					<h3><a href="pages/credits" class="inlinelink">Credits</a></h3>
+					<h3><a href="pages/contributing" class="inlinelink">Contribute</a></h3>
+					<h3><a href="pages/docs" class="inlinelink">Documentation</a></h3>
+				</div>
+				<div class="contributers">
+					<h2>Support</h2>
+					<h3><a href="pages/contact" class="inlinelink">Contact</a></h3>
+					<h3><a href="pages/report" class="inlinelink">Report an Issue</a></h3>
+				</div>
+			</div>
+			<br>
+			<div class="footerinfo">
+				<p>Scratch Embed is open sourced and can be found on <a href="https://github.com/ScratchEmbed" class="inlinelink">Github</a><br>Thank you to all of our users</p>
+			</div>
+		</div>
+		<script>
+			function close1() {
+				document.getElementById("blocker").style.display = "none";
+				document.getElementById("disclaimer").style.display = "none";
+			}
+			
+			function replace1(id, message) {
+				document.getElementById(id).innerHTML = message;
+			}
+		</script>
+	</body>
+</html>

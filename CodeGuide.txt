@@ -1,0 +1,19 @@
+Code Guidelines for The Scratch Embed Organization
+
+Please note that this is a flexible document which will change over time. Please check back frequently for updates to it.
+
+General Guidelines:
+-Use tabs instead of spaces whenever possible
+-Stick to existing colours, classes, etc. whenever possible. The colour scheme has been planned out to be consistent across the entire project, so using existing defined colours will make sure that everything has a unified look.
+
+HTML:
+-HTML should be formatted as follows:
+
+<1>
+	<2a>
+		<3>Lorem ipsum...</3>
+	</2a>
+	<2b>Lorem ipsum...</2b>
+</1>
+
+CSS:
