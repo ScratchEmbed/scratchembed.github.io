@@ -26,6 +26,10 @@
 	top: 15px;
 }
 
+#closebutton:hover {
+	cursor: pointer;
+}
+
 #desc {
 	font-size: 25px;
 }
